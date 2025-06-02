@@ -1,0 +1,173 @@
+body {
+  font-family: sans-serif;
+  background-color: #f2f4f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #577399;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+main {
+  padding: 1em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #577399;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Add more styles based on blueprint.md as components are built */
+
+/* Example of an accent color for interactive elements */
+button,
+a {
+  color: #fe5f55;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.exercise-input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.exercise-input-group input[type="text"] {
+  flex-grow: 1;
+  margin-right: 0.5em;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.remove-exercise-btn {
+  padding: 0.5em 0.8em;
+  background-color: #fe5f55;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove-exercise-btn:hover {
+  background-color: #e5534b;
+}
+
+/* Workout List Styling */
+.workouts-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.workout-item button {
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+  padding: 0.5em 1em;
+  border: 1px solid #577399;
+  background-color: white;
+  color: #577399;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.workout-item button:hover {
+  background-color: #f0f0f0;
+}
+
+.workout-item button.start-workout-btn {
+  background-color: #577399; /* Primary color for start */
+  color: white;
+}
+
+.workout-item button.start-workout-btn:hover {
+  background-color: #4a6280;
+}
+
+.workout-item button.delete-workout-btn {
+  border-color: #fe5f55;
+  color: #fe5f55;
+}
+
+.workout-item button.delete-workout-btn:hover {
+  background-color: #fee7e6;
+}
+
+/* Exercise Logging Section Styling */
+#exercise-logging-section h3 {
+  color: #577399;
+}
+
+.exercise-log-item {
+  margin-bottom: 1.5em;
+  padding: 1em;
+}
+
+.exercise-log-item h5 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: #333;
+}
+
+.sets-container {
+  margin-bottom: 0.5em;
+}
+
+.set-input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+  gap: 0.5em; /* Spacing between elements */
+}
+
+.set-input-group label {
+  min-width: 50px; /* Give labels some space */
+}
+
+.set-input-group input[type="number"] {
+  width: 80px; /* Adjust width as needed */
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.exercise-log-item button,
+#finish-workout-button {
+  padding: 0.5em 1em;
+  border: 1px solid #577399;
+  background-color: #577399;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.5em;
+}
+
+.exercise-log-item button:hover,
+#finish-workout-button:hover {
+  background-color: #4a6280;
+}
+
+.set-input-group .remove-set-btn {
+  background-color: #fe5f55;
+  border-color: #fe5f55;
+}
+
+.set-input-group .remove-set-btn:hover {
+  background-color: #e5534b;
+}
